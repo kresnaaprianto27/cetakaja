@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Katalog Produk</title>
+    <link rel="stylesheet" href="./css/katalog_product_style.css">
+
+    <!-- add favicon -->
+    <link rel="icon" type="image/png" href="./images/favicon.png">
+
+
+</head>
+
+<body>
+    <!-- START NAVBAR -->
+    <nav class="navbar">
+
+        <div class="nav-container">
+
+            <a href="#" class="logo">
+
+                <img src="./images/logo_cetak_aja.png" alt="Logo">
+
+            </a>
+
+            <ul class="nav-menu">
+
+                <li>
+                    <a href="index.html">
+                        Beranda
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#" class="active">
+                        Katalog
+                    </a>
+                </li>
+
+            </ul>
+
+            <a href="https://wa.me/6281234567890" target="_blank" class="nav-btn">
+                WhatsApp
+            </a>
+
+            <div class="hamburger">
+
+                <span></span>
+                <span></span>
+                <span></span>
+
+            </div>
+
+        </div>
+
+    </nav>
+    <!-- END NAVBAR -->
+
+    <div class="header">
+        <h1>Katalog Produk</h1>
+        <p>Printing • Foto • Jasa Desain</p>
+    </div>
+
+    <!-- TAB -->
+    <div class="tabs-wrapper">
+
+        <div class="tabs">
+
+            <button class="tab-btn active" data-category="printing">
+                Printing (33)
+            </button>
+
+            <button class="tab-btn" data-category="foto">
+                Foto (6)
+            </button>
+
+            <button class="tab-btn" data-category="desain">
+                Jasa Desain (9)
+            </button>
+
+        </div>
+
+    </div>
+
+    <!-- GRID -->
+    <div class="grid" id="productGrid"></div>
+    <script src="./js/katalog_script.js"></script>
+</body>
+
+</html>
